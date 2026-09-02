@@ -164,10 +164,6 @@ Example output:
 ```
 
 This local output is informational only and does not reveal hidden test code.
-The metric block is a quick **mean-pain probe** over your pooled sequences (not
-a trained model), just to exercise functions 1–5 end to end. Sections are
-skipped (with a note) when their functions are not yet implemented, or when
-PyTorch is not installed.
 
 ---
 
@@ -179,15 +175,11 @@ pytest pipeline/test_pipeline.py -v
 
 `conftest.py` runs first and aborts the whole run with an error if you modified
 any provided helper (`load_patient_visits`, `PAIN_KEYWORDS`,
-`_VISIT_FEATURE_COLS`) — revert the change if that happens. Otherwise **14
-tests** run (12 if PyTorch is not installed — the two function-6 tests skip):
-the 6 functions you implement plus `get_sandbox_params()`.
+`_VISIT_FEATURE_COLS`) — revert the change if that happens.
 
 Every stub raises `NotImplementedError` until you implement it; its test then
 fails with a plain `... is not implemented yet` message (no traceback) —
-expected for a stub, not a bug. Implement the function and re-run. The two
-PyTorch tests (function 6) are skipped automatically if PyTorch is not
-installed.
+expected for a stub, not a bug. Implement the function and re-run. 
 
 Run a single test while you work on one function:
 
@@ -218,7 +210,7 @@ Pushing triggers the `Autograding` GitHub Actions workflow, which clones the
 | Code quality | 10 | Every function keeps its docstring; no function is left as an unimplemented stub |
 
 The grader ships its own copy of `data/`, `metrics_utils.py` and the reference
-solution; it never trusts anything you submit except `pipeline/pipeline.py`
+solution; it never uses anything you submit except `pipeline/pipeline.py`
 (and, from it, only your `get_sandbox_params()` values and the 6 functions).
 
 ---
