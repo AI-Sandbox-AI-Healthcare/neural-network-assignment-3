@@ -1,0 +1,321 @@
+id,condition_text,race,age,is_female,number_of_unique_meds,number_of_encounters,number_of_procedures,unique_procedures,pain_severity,body_height,body_weight,body_mass_index,systolic_blood_pressure,diastolic_blood_pressure,heart_rate,respiratory_rate,qaly,daly,qols,healthcare_expenses,healthcare_coverage,binary_label
+P0000,viral upper respiratory infection; essential hypertension; essential hypertension; seasonal allergic rhinitis,black,78,0,6,6,1,1,0.9,177.4,48.4,15.4,126.0,79.0,83.0,16.0,0.927,0.052,73.3,2572.04,16861.06,0
+P0001,asthma; essential hypertension; common cold,black,50,0,4,5,2,2,4.8,146.8,61.3,28.4,132.0,74.0,78.0,16.0,0.828,0.067,82.0,8782.76,12133.84,0
+P0002,essential hypertension,native,28,1,4,3,1,1,1.9,166.1,64.5,23.4,110.0,77.0,59.0,14.0,0.822,0.0,75.8,6052.66,9406.26,0
+P0003,compression fracture,native,47,1,5,3,4,3,1.6,178.8,90.2,28.2,118.0,86.0,54.0,17.0,1.0,0.0,42.7,1497.01,13701.24,1
+P0004,diabetic neuropathy; compression fracture; neck pain; migraine headache,other,18,1,4,3,2,1,7.6,161.1,102.8,39.6,139.0,71.0,54.0,14.0,0.773,0.024,67.1,9274.74,5290.05,1
+P0005,type 2 diabetes mellitus; chronic kidney disease,asian,19,1,2,8,4,3,6.6,164.6,66.6,24.6,103.0,88.0,78.0,20.0,0.658,0.188,47.2,3350.58,3238.34,1
+P0006,post-surgical wound care; lower back pain,native,52,0,4,9,6,1,2.1,177.3,80.9,25.7,129.0,82.0,76.0,16.0,0.61,0.134,73.2,13438.0,9045.03,1
+P0007,hyperlipidemia; back to back appointments scheduled,asian,32,1,5,6,2,2,5.1,165.1,79.3,29.1,122.0,89.0,77.0,16.0,0.848,0.09,77.6,5638.47,12723.29,0
+P0008,asthma; viral upper respiratory infection; gastroesophageal reflux disease; asthma,white,47,1,3,5,2,2,3.0,155.8,61.4,25.3,114.0,90.0,81.0,18.0,0.987,0.15,93.7,9118.61,2337.54,0
+P0009,essential hypertension; common cold; type 2 diabetes mellitus,other,48,1,2,7,0,0,8.3,160.9,45.3,17.5,122.0,93.0,76.0,16.0,0.783,0.019,77.4,5495.64,12544.26,0
+P0010,rheumatoid arthritis,white,85,1,4,2,2,2,8.6,154.5,61.8,25.9,108.0,87.0,68.0,16.0,0.596,0.255,76.0,15063.23,12400.81,1
+P0011,fibromyalgia; whiplash injury; rheumatoid arthritis,other,73,1,4,7,0,0,2.9,173.3,50.2,16.7,127.0,88.0,63.0,16.0,0.919,0.18,65.2,8428.58,6877.94,1
+P0012,migraine headache; migraine headache; fibromyalgia; neck pain,other,49,1,3,3,6,2,3.6,150.5,69.2,30.6,106.0,79.0,59.0,15.0,0.777,0.071,63.9,9350.78,9599.03,1
+P0013,gastroesophageal reflux disease; generalized anxiety disorder,black,72,0,6,5,1,1,0.8,177.7,72.2,22.9,103.0,87.0,91.0,14.0,0.852,0.169,60.8,3850.21,7799.81,0
+P0014,atopic eczema; asthma; hypothyroidism; common cold,white,36,0,4,6,0,0,2.9,151.3,71.5,31.2,140.0,72.0,88.0,15.0,1.0,0.0,91.9,7737.56,9241.64,0
+P0015,hyperlipidemia,black,44,1,3,5,3,2,2.7,168.2,71.7,25.3,111.0,78.0,64.0,18.0,0.705,0.014,81.2,0.0,12191.17,0
+P0016,gastroesophageal reflux disease; viral upper respiratory infection; hypothyroidism; asthma,black,66,0,3,2,1,1,4.1,153.1,82.8,35.3,92.0,88.0,76.0,15.0,0.88,0.069,71.4,21618.4,5649.2,0
+P0017,viral upper respiratory infection; atopic eczema; type 2 diabetes mellitus,black,28,0,3,5,0,0,2.8,164.6,58.7,21.7,134.0,80.0,83.0,15.0,0.636,0.105,81.7,3206.97,13135.74,0
+P0018,type 2 diabetes mellitus; hyperlipidemia; asthma; viral upper respiratory infection,native,45,1,5,6,0,0,0.0,178.0,89.6,28.3,110.0,85.0,95.0,15.0,0.818,0.07,73.6,7492.48,12447.08,0
+P0019,atopic eczema; hypothyroidism,native,26,0,2,6,2,2,0.9,179.0,46.2,14.4,72.0,70.0,72.0,17.0,0.928,0.0,69.6,4339.02,12597.54,0
+P0020,"ligament sprain, ankle; gout flare",black,52,0,3,9,0,0,7.8,180.8,75.6,23.1,123.0,95.0,80.0,20.0,0.952,0.112,74.0,5765.83,910.13,1
+P0021,post-surgical wound care; lower back pain; lower back pain,native,79,0,3,6,2,1,7.2,166.8,81.2,29.2,137.0,75.0,90.0,14.0,0.557,0.133,89.4,12439.43,1348.21,1
+P0022,atopic eczema,black,36,1,3,6,1,1,2.3,168.8,61.1,21.4,125.0,85.0,60.0,17.0,0.958,0.232,75.5,4132.36,11723.36,0
+P0023,whiplash injury,white,54,0,4,4,4,2,4.0,170.1,47.5,16.4,149.0,81.0,71.0,16.0,0.896,0.278,47.2,6207.3,6529.82,1
+P0024,sciatica; rheumatoid arthritis,asian,34,0,3,7,0,0,3.9,173.9,85.4,28.2,122.0,90.0,78.0,15.0,0.746,0.154,60.2,0.0,6105.6,1
+P0025,essential hypertension; essential hypertension,asian,29,1,4,5,0,0,2.6,163.7,63.1,23.5,129.0,77.0,71.0,17.0,1.0,0.016,100.0,1856.54,5805.46,0
+P0026,essential hypertension; seasonal allergic rhinitis; generalized anxiety disorder; atopic eczema,black,28,1,5,4,2,2,0.0,178.7,87.8,27.5,107.0,71.0,100.0,13.0,0.855,0.101,68.5,504.71,3458.21,0
+P0027,viral upper respiratory infection; asthma; common cold; asthma,white,76,0,3,7,0,0,4.5,171.0,87.6,30.0,123.0,62.0,87.0,18.0,0.746,0.012,94.4,16842.38,7745.9,0
+P0028,gastroesophageal reflux disease; seasonal allergic rhinitis,black,93,0,4,6,1,1,1.2,179.2,74.4,23.2,142.0,78.0,80.0,16.0,0.908,0.093,75.9,0.0,5975.16,0
+P0029,generalized anxiety disorder; chronic obstructive pulmonary disease (copd),white,59,1,7,7,1,1,4.7,172.5,74.5,25.0,131.0,69.0,68.0,14.0,0.46,0.178,81.8,1355.35,6246.56,1
+P0030,atopic eczema; type 2 diabetes mellitus; gastroesophageal reflux disease,black,37,0,1,5,3,3,0.0,174.5,91.3,30.0,123.0,86.0,87.0,19.0,1.0,0.057,77.6,7989.57,10855.87,0
+P0031,chronic lower back pain; gout flare; sciatica; fibromyalgia,black,63,1,4,10,2,2,4.9,160.4,80.9,31.4,95.0,95.0,85.0,18.0,0.93,0.166,44.8,20110.87,4106.23,1
+P0032,osteoarthritis of the knee; whiplash injury; sciatica; diabetic neuropathy,asian,44,0,3,4,3,3,7.6,163.6,58.7,21.9,118.0,59.0,73.0,18.0,0.701,0.109,63.4,0.0,13480.32,1
+P0033,lumbar spinal stenosis; chronic lower back pain; compression fracture,other,64,1,3,4,1,1,0.0,154.8,77.4,32.3,105.0,68.0,74.0,13.0,0.868,0.085,100.0,0.0,-123.96,1
+P0034,type 2 diabetes mellitus; generalized anxiety disorder; back to back appointments scheduled,white,55,1,5,3,0,0,5.8,164.8,83.9,30.9,131.0,84.0,63.0,15.0,0.921,0.172,77.3,7610.1,19101.09,0
+P0035,chronic lower back pain; rheumatoid arthritis; lower back pain,white,55,1,5,4,0,0,5.5,166.0,78.0,28.3,113.0,93.0,78.0,15.0,1.0,0.199,79.0,11923.2,3380.99,1
+P0036,atopic eczema; common cold; hypothyroidism; atopic eczema,asian,61,1,6,2,0,0,1.1,176.1,77.7,25.1,126.0,84.0,87.0,17.0,0.779,0.063,74.6,0.0,11279.78,0
+P0037,"ligament sprain, ankle; rheumatoid arthritis",other,40,0,8,2,1,1,0.4,155.1,72.0,29.9,109.0,84.0,89.0,19.0,0.554,0.066,67.9,0.0,12620.56,1
+P0038,type 2 diabetes mellitus; hypothyroidism,native,43,1,4,3,1,1,5.0,200.1,72.5,18.1,147.0,86.0,84.0,12.0,0.604,0.091,83.2,1630.91,8893.32,0
+P0039,diabetic neuropathy; osteoarthritis of the knee,black,19,1,8,6,0,0,4.9,166.5,58.7,21.2,106.0,87.0,87.0,16.0,0.718,0.198,77.6,14987.43,11935.9,1
+P0040,rheumatoid arthritis; neck pain; compression fracture,other,42,0,4,9,0,0,5.8,180.3,50.3,15.5,126.0,97.0,72.0,16.0,0.508,0.226,100.0,9057.1,8468.98,1
+P0041,type 2 diabetes mellitus; atopic eczema,other,24,1,3,3,0,0,2.0,178.1,93.6,29.5,157.0,87.0,73.0,18.0,0.834,0.168,78.8,11009.2,1743.28,0
+P0042,hypothyroidism,white,47,1,2,3,1,1,0.9,142.5,63.7,31.4,124.0,69.0,91.0,16.0,0.906,0.108,76.7,6320.73,10311.33,0
+P0043,atopic eczema,white,33,0,3,2,0,0,4.4,165.1,78.3,28.7,109.0,76.0,83.0,13.0,0.8,0.015,70.4,6725.91,13563.73,0
+P0044,type 2 diabetes mellitus; gastroesophageal reflux disease; common cold; hypothyroidism,white,52,1,2,2,3,2,0.6,182.5,49.1,14.7,129.0,83.0,70.0,16.0,0.738,0.201,61.9,10281.78,6664.71,0
+P0045,hypothyroidism; gastroesophageal reflux disease; atopic eczema; gastroesophageal reflux disease,asian,58,0,5,2,0,0,4.5,143.5,77.2,37.5,134.0,73.0,84.0,14.0,1.0,0.15,58.1,6252.11,2001.68,0
+P0046,rheumatoid arthritis,other,24,0,5,8,5,4,0.2,175.4,60.5,19.7,137.0,78.0,87.0,14.0,0.734,0.224,80.6,11136.12,6457.4,1
+P0047,seasonal allergic rhinitis; asthma; common cold,native,35,1,4,0,1,1,0.7,158.6,124.8,49.6,94.0,76.0,86.0,16.0,0.884,0.16,54.8,1887.12,10231.53,0
+P0048,common cold; viral upper respiratory infection,asian,33,0,4,4,0,0,0.0,163.1,57.3,21.5,124.0,74.0,79.0,15.0,0.973,0.0,97.3,3599.68,10137.36,0
+P0049,seasonal allergic rhinitis; hypothyroidism,asian,63,0,5,2,3,2,5.4,170.0,58.2,20.1,91.0,88.0,73.0,17.0,0.694,0.059,90.2,9475.01,13406.73,0
+P0050,hypothyroidism; seasonal allergic rhinitis; chronic kidney disease,black,81,0,7,2,1,1,0.0,149.1,90.5,40.7,152.0,77.0,82.0,13.0,0.615,0.091,65.3,7560.08,11179.03,1
+P0051,hypothyroidism,white,65,1,3,8,0,0,0.2,169.7,93.8,32.6,122.0,70.0,96.0,21.0,1.0,0.151,64.0,2784.62,10972.79,0
+P0052,rheumatoid arthritis,other,44,1,3,8,1,1,5.9,161.3,38.9,15.0,117.0,74.0,80.0,19.0,0.741,0.025,70.5,14287.71,758.05,1
+P0053,hypothyroidism; hyperlipidemia,other,76,1,4,3,2,2,3.1,160.2,78.8,30.7,130.0,81.0,71.0,17.0,0.726,0.062,79.3,9899.22,17981.2,0
+P0054,"gout flare; diabetic neuropathy; ligament sprain, ankle; post-surgical wound care",white,23,1,2,7,0,0,9.7,174.7,89.4,29.3,131.0,102.0,82.0,13.0,0.725,0.291,88.1,9299.26,9109.25,1
+P0055,migraine headache; fibromyalgia,asian,77,1,6,3,1,1,8.9,202.8,53.8,13.1,106.0,84.0,65.0,12.0,0.672,0.205,58.2,3660.18,12422.85,1
+P0056,atopic eczema; atopic eczema; painless skin tag removal,native,38,0,2,3,1,1,3.9,171.2,86.1,29.4,143.0,96.0,81.0,14.0,0.703,0.058,74.1,11822.77,7499.06,0
+P0057,hyperlipidemia; common cold; asthma,other,18,0,2,3,1,1,4.1,173.3,65.6,21.8,117.0,86.0,75.0,16.0,0.804,0.192,78.3,20621.92,8291.81,0
+P0058,seasonal allergic rhinitis,other,95,1,3,1,0,0,0.0,167.2,57.6,20.6,96.0,59.0,88.0,21.0,0.852,0.002,75.4,2367.48,9153.57,0
+P0059,hypothyroidism; asthma; seasonal allergic rhinitis,other,78,0,1,1,1,1,0.7,160.5,68.6,26.6,140.0,85.0,79.0,19.0,0.853,0.108,70.9,0.0,15328.7,0
+P0060,essential hypertension; asthma,asian,31,1,3,6,2,2,1.9,170.3,66.7,23.0,142.0,72.0,89.0,15.0,0.921,0.067,56.7,2597.89,15091.43,0
+P0061,seasonal allergic rhinitis; asthma; asthma; common cold,asian,53,1,1,7,0,0,2.2,182.9,51.0,15.2,138.0,67.0,102.0,18.0,0.641,0.111,57.7,1752.12,11432.71,0
+P0062,common cold,native,46,1,4,4,2,2,0.0,169.6,112.3,39.0,128.0,70.0,76.0,19.0,0.67,0.065,70.3,0.0,17005.6,0
+P0063,chronic lower back pain; lower back pain; neck pain,native,52,0,4,6,1,1,2.0,176.6,66.8,21.4,111.0,99.0,70.0,16.0,0.897,0.059,66.5,469.5,7307.49,1
+P0064,atopic eczema; viral upper respiratory infection; seasonal allergic rhinitis; gastroesophageal reflux disease,black,23,1,5,4,1,1,0.8,165.4,61.9,22.6,134.0,65.0,83.0,18.0,0.8,0.093,92.0,11542.4,11029.98,0
+P0065,neck pain; chronic lower back pain,other,38,0,3,7,3,1,6.9,192.9,88.9,23.9,151.0,75.0,77.0,17.0,0.967,0.011,100.0,15780.83,7062.21,1
+P0066,hypothyroidism; common cold,black,58,0,5,6,2,2,3.5,151.2,73.3,32.1,132.0,93.0,80.0,15.0,0.892,0.112,100.0,15019.69,14202.69,0
+P0067,diabetic neuropathy; migraine headache,black,54,1,2,6,1,1,3.5,173.6,97.0,32.2,147.0,88.0,72.0,14.0,0.534,0.11,76.4,14929.84,9073.32,1
+P0068,hypothyroidism; essential hypertension; seasonal allergic rhinitis,asian,72,0,3,5,2,2,2.0,173.1,70.0,23.4,110.0,64.0,84.0,16.0,0.921,0.135,100.0,4249.0,12915.29,0
+P0069,migraine headache,native,51,1,4,6,3,2,5.0,170.4,80.4,27.7,139.0,80.0,79.0,18.0,0.6,0.097,68.2,17462.09,15957.75,1
+P0070,common cold; chronic kidney disease,other,92,0,8,5,6,4,2.6,156.5,76.1,31.1,138.0,76.0,56.0,13.0,0.809,0.075,61.6,4740.03,475.87,1
+P0071,diabetic neuropathy,white,37,0,6,5,4,4,3.6,156.3,77.3,31.6,102.0,79.0,76.0,13.0,0.969,0.181,100.0,6719.55,17786.55,1
+P0072,asthma,black,55,0,4,12,2,1,0.0,165.3,71.0,26.0,98.0,88.0,82.0,17.0,1.0,0.154,65.2,418.99,10234.05,0
+P0073,generalized anxiety disorder; essential hypertension,other,18,0,3,6,2,1,4.0,168.7,72.7,25.5,111.0,75.0,91.0,10.0,0.846,0.0,73.7,13614.75,7632.58,0
+P0074,gout flare; rheumatoid arthritis,asian,27,0,6,10,0,0,6.7,155.6,102.8,42.5,125.0,78.0,72.0,20.0,0.882,0.153,65.8,16896.66,1114.78,1
+P0075,hypothyroidism; chronic kidney disease,native,74,0,3,6,1,1,5.2,157.0,63.0,25.6,130.0,96.0,70.0,15.0,0.816,0.203,93.4,5840.15,7701.68,1
+P0076,viral upper respiratory infection; generalized anxiety disorder; seasonal allergic rhinitis,white,33,1,2,5,0,0,3.6,173.3,65.3,21.7,118.0,62.0,90.0,17.0,0.953,0.0,71.3,5156.13,-451.93,0
+P0077,type 2 diabetes mellitus; hypothyroidism; essential hypertension; essential hypertension; chronic obstructive pulmonary disease (copd),asian,60,1,4,5,2,2,5.2,178.0,68.7,21.7,123.0,77.0,72.0,20.0,0.347,0.054,82.6,9577.88,9299.73,1
+P0078,gastroesophageal reflux disease; viral upper respiratory infection; viral upper respiratory infection; viral upper respiratory infection,black,49,1,2,4,0,0,6.9,162.1,84.1,32.0,119.0,86.0,79.0,13.0,0.807,0.119,73.8,7966.44,8245.79,0
+P0079,gout flare; post-surgical wound care; sciatica; rheumatoid arthritis,asian,31,1,2,9,1,1,4.8,160.7,81.3,31.5,125.0,68.0,83.0,14.0,0.814,0.06,50.5,15643.05,16391.18,1
+P0080,neck pain; post-surgical wound care; post-surgical wound care; fibromyalgia; painless skin tag removal,native,44,1,6,3,0,0,1.0,160.4,90.3,35.1,132.0,75.0,86.0,21.0,0.844,0.078,73.8,9804.71,7606.51,1
+P0081,asthma; gastroesophageal reflux disease; generalized anxiety disorder,white,41,0,4,2,2,2,0.4,192.4,51.9,14.0,128.0,68.0,78.0,15.0,0.762,0.182,81.2,9059.97,13326.51,0
+P0082,essential hypertension; seasonal allergic rhinitis; painless skin tag removal,native,41,0,6,3,1,1,4.1,172.6,78.9,26.5,120.0,82.0,67.0,16.0,0.957,0.025,64.0,0.0,13711.36,0
+P0083,lower back pain,other,64,1,4,5,0,0,7.0,167.0,71.5,25.6,128.0,75.0,89.0,16.0,0.948,0.056,56.2,7041.09,17381.62,1
+P0084,generalized anxiety disorder; viral upper respiratory infection,black,62,0,3,3,2,2,4.2,177.7,69.7,22.1,114.0,89.0,74.0,18.0,0.864,0.0,68.7,0.0,7934.84,0
+P0085,gastroesophageal reflux disease; common cold; hypothyroidism; chronic kidney disease,white,40,1,2,6,1,1,6.4,190.6,77.3,21.3,136.0,91.0,73.0,19.0,0.729,0.033,85.5,22667.03,12060.87,1
+P0086,viral upper respiratory infection; asthma; type 2 diabetes mellitus; essential hypertension,black,34,1,2,3,1,1,3.0,179.4,41.3,12.8,114.0,81.0,99.0,16.0,0.811,0.008,85.1,14522.56,2735.33,0
+P0087,asthma; asthma; asthma; atopic eczema,native,55,0,1,3,1,1,0.0,153.4,79.1,33.6,144.0,77.0,87.0,15.0,0.872,0.182,82.2,10784.78,4414.96,0
+P0088,common cold; essential hypertension; seasonal allergic rhinitis; atopic eczema,black,48,0,3,5,0,0,1.1,166.8,76.9,27.6,120.0,84.0,67.0,16.0,1.0,0.153,85.4,12957.78,7834.34,0
+P0089,chronic lower back pain; sciatica,native,69,0,2,5,0,0,0.0,163.6,50.4,18.8,128.0,81.0,73.0,17.0,1.0,0.016,62.5,24319.0,8858.51,1
+P0090,fibromyalgia; osteoarthritis of the knee; rheumatoid arthritis,black,95,1,2,7,2,2,3.3,164.2,72.9,27.0,112.0,69.0,76.0,19.0,0.689,0.335,77.7,16333.3,3982.33,1
+P0091,hypothyroidism; generalized anxiety disorder,native,65,1,4,2,4,2,0.0,155.5,100.6,41.6,116.0,92.0,70.0,16.0,0.74,0.126,71.2,0.0,7268.24,0
+P0092,hyperlipidemia; gastroesophageal reflux disease,black,49,0,4,3,3,1,2.8,163.7,68.0,25.4,123.0,83.0,58.0,20.0,0.757,0.07,61.8,5707.49,11826.53,0
+P0093,viral upper respiratory infection; generalized anxiety disorder; asthma; atopic eczema,other,47,1,1,4,1,1,2.2,156.8,84.5,34.4,121.0,89.0,87.0,14.0,0.976,0.128,69.9,0.0,7089.92,0
+P0094,gout flare,black,35,0,3,9,2,2,0.0,171.0,70.7,24.2,115.0,67.0,86.0,17.0,0.803,0.179,73.5,3174.2,8326.31,1
+P0095,type 2 diabetes mellitus,black,34,0,4,3,1,1,4.1,168.1,60.8,21.5,105.0,90.0,81.0,20.0,0.892,0.035,80.2,0.0,5315.64,0
+P0096,migraine headache,asian,32,1,3,7,1,1,6.2,153.5,59.0,25.0,124.0,102.0,74.0,19.0,0.846,0.0,87.0,9212.56,14622.26,1
+P0097,seasonal allergic rhinitis; hypothyroidism,native,43,0,0,3,3,3,0.0,150.5,67.8,29.9,123.0,87.0,80.0,17.0,0.901,0.027,57.1,8975.4,16252.96,0
+P0098,post-surgical wound care; lower back pain,asian,42,1,2,7,1,1,4.7,162.8,96.4,36.4,132.0,66.0,85.0,14.0,0.747,0.14,66.6,2311.45,9804.6,1
+P0099,"osteoarthritis of the knee; ligament sprain, ankle; migraine headache",native,63,0,4,7,2,1,6.1,174.1,88.3,29.1,142.0,81.0,67.0,15.0,0.596,0.106,76.4,7144.92,8496.97,1
+P0100,essential hypertension; back to back appointments scheduled,white,43,0,6,2,3,1,2.0,172.6,62.6,21.0,116.0,80.0,75.0,16.0,0.779,0.037,66.6,8363.94,15790.64,0
+P0101,seasonal allergic rhinitis; atopic eczema,other,46,1,2,1,0,0,4.4,166.9,91.3,32.8,93.0,83.0,72.0,17.0,0.87,0.138,82.3,5962.65,10930.19,0
+P0102,generalized anxiety disorder; chronic kidney disease,native,28,1,3,12,3,3,4.8,134.5,72.4,40.0,122.0,79.0,85.0,15.0,0.831,0.036,63.6,7920.0,6224.42,1
+P0103,hypothyroidism,black,80,0,0,5,1,1,4.9,162.7,62.9,23.8,95.0,86.0,81.0,13.0,0.809,0.133,64.4,0.0,3441.77,0
+P0104,seasonal allergic rhinitis; type 2 diabetes mellitus; hypothyroidism; generalized anxiety disorder,white,59,1,0,3,0,0,3.0,160.2,81.8,31.9,103.0,76.0,65.0,14.0,0.804,0.052,93.7,4394.2,6555.16,0
+P0105,chronic lower back pain,asian,82,1,4,2,1,1,3.9,164.2,59.2,22.0,139.0,83.0,72.0,17.0,0.991,0.152,47.9,15192.55,17970.31,1
+P0106,common cold; chronic kidney disease,asian,64,0,5,2,1,1,5.6,155.4,48.1,19.9,132.0,74.0,97.0,18.0,0.69,0.03,86.1,11184.86,6540.21,1
+P0107,seasonal allergic rhinitis; atopic eczema,asian,77,0,0,1,0,0,4.2,163.3,96.3,36.1,112.0,82.0,68.0,13.0,0.882,0.08,73.7,0.0,20820.48,0
+P0108,viral upper respiratory infection; viral upper respiratory infection; seasonal allergic rhinitis; common cold,black,46,1,3,1,1,1,3.1,160.9,43.8,16.9,112.0,91.0,80.0,15.0,0.816,0.034,66.9,5313.49,8965.7,0
+P0109,essential hypertension,asian,63,0,5,5,1,1,1.6,194.8,83.6,22.0,120.0,76.0,72.0,13.0,0.749,0.0,67.6,8274.65,8088.56,0
+P0110,generalized anxiety disorder,asian,95,1,1,7,1,1,0.9,174.7,48.9,16.0,96.0,88.0,91.0,15.0,0.668,0.079,69.5,1453.56,14401.85,0
+P0111,generalized anxiety disorder; generalized anxiety disorder; gastroesophageal reflux disease,white,28,1,2,4,2,1,1.8,165.7,74.0,27.0,127.0,72.0,78.0,23.0,0.789,0.077,68.1,10517.3,7970.62,0
+P0112,whiplash injury; sciatica; diabetic neuropathy; rheumatoid arthritis,native,71,0,6,5,3,2,2.8,167.1,71.2,25.5,119.0,77.0,74.0,16.0,0.632,0.223,74.4,3227.69,10531.25,1
+P0113,hyperlipidemia; essential hypertension; essential hypertension; hyperlipidemia,other,81,1,3,3,0,0,3.0,166.4,67.1,24.2,146.0,78.0,66.0,15.0,0.959,0.097,54.8,4986.09,4712.9,0
+P0114,"ligament sprain, ankle; sciatica; ligament sprain, ankle",native,58,0,4,6,1,1,4.7,169.5,37.7,13.1,108.0,93.0,76.0,15.0,0.578,0.041,89.9,8416.8,3873.56,1
+P0115,common cold; asthma; atopic eczema,other,64,0,6,4,3,3,2.4,163.5,72.7,27.2,135.0,73.0,87.0,14.0,0.804,0.044,89.9,19048.59,5952.47,0
+P0116,essential hypertension; generalized anxiety disorder,other,73,1,1,3,2,2,2.6,167.4,73.9,26.4,111.0,93.0,85.0,12.0,0.936,0.0,97.1,5039.35,9893.54,0
+P0117,compression fracture; lumbar spinal stenosis; osteoarthritis of the knee,native,38,1,4,4,0,0,4.7,177.9,59.4,18.8,139.0,66.0,64.0,16.0,0.748,0.03,54.4,4947.59,6254.38,1
+P0118,essential hypertension; generalized anxiety disorder; hypothyroidism; chronic obstructive pulmonary disease (copd),white,58,0,5,7,0,0,8.2,175.9,73.4,23.7,109.0,79.0,94.0,15.0,0.848,0.269,33.0,14597.64,925.49,1
+P0119,gastroesophageal reflux disease; asthma,asian,34,0,4,1,3,2,5.1,170.7,91.2,31.3,131.0,90.0,76.0,19.0,0.958,0.17,71.0,4210.08,10935.61,0
+P0120,osteoarthritis of the knee; neck pain; rheumatoid arthritis; rheumatoid arthritis,white,38,0,2,8,2,2,2.8,181.0,62.5,19.1,117.0,88.0,67.0,13.0,0.495,0.216,67.4,10677.33,8306.57,1
+P0121,generalized anxiety disorder; atopic eczema,native,39,1,4,2,0,0,3.5,169.8,78.9,27.4,109.0,71.0,79.0,17.0,0.804,0.098,83.0,0.0,7836.22,0
+P0122,seasonal allergic rhinitis; generalized anxiety disorder; viral upper respiratory infection; atopic eczema,asian,47,0,4,3,1,1,1.9,157.8,55.2,22.2,119.0,69.0,72.0,19.0,0.737,0.115,72.4,8438.27,6467.99,0
+P0123,asthma; seasonal allergic rhinitis; hypothyroidism; atopic eczema; painless skin tag removal,white,53,0,3,2,2,2,2.4,150.1,81.0,36.0,127.0,90.0,72.0,12.0,1.0,0.109,78.0,6692.2,-256.88,0
+P0124,hyperlipidemia; hyperlipidemia; generalized anxiety disorder; gastroesophageal reflux disease,other,58,1,5,3,1,1,2.1,160.6,85.3,33.1,126.0,68.0,72.0,17.0,0.841,0.0,81.1,0.0,15506.41,0
+P0125,rheumatoid arthritis; rheumatoid arthritis; painless skin tag removal,native,24,1,4,8,2,2,2.7,167.0,116.2,41.7,147.0,87.0,77.0,13.0,0.848,0.055,45.4,19399.83,7014.43,1
+P0126,migraine headache; whiplash injury; osteoarthritis of the knee; lumbar spinal stenosis,black,86,1,5,5,3,3,0.9,171.6,89.8,30.5,136.0,76.0,73.0,17.0,1.0,0.258,99.0,7435.49,11149.2,1
+P0127,common cold; generalized anxiety disorder; chronic kidney disease,other,71,1,2,3,1,1,0.0,178.4,81.8,25.7,84.0,81.0,60.0,19.0,0.708,0.257,52.2,7754.44,14702.27,1
+P0128,"ligament sprain, ankle; neck pain",white,63,1,7,5,3,3,4.8,161.8,98.2,37.5,118.0,104.0,84.0,16.0,0.779,0.164,74.3,0.0,13621.49,1
+P0129,diabetic neuropathy,black,43,1,3,5,4,3,7.2,159.5,57.9,22.8,94.0,97.0,73.0,17.0,0.833,0.11,87.4,0.0,9818.72,1
+P0130,common cold; asthma; hypothyroidism; hyperlipidemia,asian,48,1,3,4,0,0,0.6,175.3,92.6,30.1,115.0,89.0,91.0,15.0,0.822,0.058,69.0,3670.6,9026.41,0
+P0131,hyperlipidemia; asthma; common cold; essential hypertension,asian,60,0,2,2,2,2,3.6,179.4,65.4,20.3,129.0,67.0,84.0,17.0,1.0,0.048,79.2,0.0,10246.39,0
+P0132,whiplash injury; gout flare; rheumatoid arthritis; diabetic neuropathy,other,58,1,5,4,0,0,3.3,162.8,64.2,24.2,104.0,84.0,85.0,18.0,0.9,0.049,96.3,12897.51,12712.62,1
+P0133,"ligament sprain, ankle; osteoarthritis of the knee; post-surgical wound care",other,19,0,4,3,1,1,5.0,171.0,93.0,31.8,106.0,81.0,80.0,16.0,0.93,0.0,65.7,15736.39,11366.94,1
+P0134,asthma; essential hypertension; essential hypertension; hypothyroidism; chronic obstructive pulmonary disease (copd),black,64,1,0,5,0,0,2.2,181.4,78.5,23.9,126.0,80.0,92.0,16.0,0.775,0.155,86.9,4457.44,7155.82,1
+P0135,type 2 diabetes mellitus; viral upper respiratory infection; painless skin tag removal,native,95,1,1,10,0,0,2.1,170.8,96.8,33.2,117.0,94.0,75.0,17.0,0.813,0.054,82.9,0.0,10838.51,0
+P0136,hypothyroidism; type 2 diabetes mellitus; hyperlipidemia; generalized anxiety disorder,asian,18,0,4,1,1,1,2.3,167.0,50.3,18.0,143.0,63.0,68.0,18.0,0.811,0.068,82.1,4624.73,10541.93,0
+P0137,atopic eczema; hypothyroidism,black,68,1,1,8,0,0,0.0,146.8,79.2,36.8,125.0,84.0,82.0,13.0,0.81,0.182,88.5,959.1,11843.81,0
+P0138,viral upper respiratory infection; atopic eczema; common cold,white,57,0,4,3,3,2,3.0,180.9,65.8,20.1,128.0,82.0,50.0,16.0,0.654,0.115,76.1,7707.07,9833.5,0
+P0139,type 2 diabetes mellitus; viral upper respiratory infection,black,48,1,1,7,1,1,2.3,174.1,70.1,23.1,145.0,73.0,74.0,15.0,0.899,0.039,76.4,7777.6,14616.06,0
+P0140,viral upper respiratory infection; hyperlipidemia,white,75,0,6,12,1,1,0.0,168.9,42.6,14.9,114.0,98.0,80.0,17.0,0.954,0.115,91.6,4443.6,9819.25,0
+P0141,gastroesophageal reflux disease; common cold; atopic eczema; common cold,other,28,0,4,4,3,3,3.9,162.9,90.3,34.0,121.0,68.0,74.0,18.0,0.854,0.0,82.5,7190.03,12640.62,0
+P0142,common cold; asthma,asian,53,1,3,5,2,2,2.5,155.1,78.1,32.5,107.0,81.0,91.0,17.0,0.794,0.143,85.6,12508.97,9172.42,0
+P0143,essential hypertension; type 2 diabetes mellitus,black,77,1,2,7,2,2,3.0,166.6,58.1,20.9,124.0,82.0,85.0,19.0,0.859,0.096,63.6,16154.45,6635.67,0
+P0144,gastroesophageal reflux disease; common cold,black,46,0,2,3,1,1,3.3,166.5,52.1,18.8,135.0,59.0,79.0,14.0,0.882,0.069,79.4,3914.0,5109.9,0
+P0145,hyperlipidemia; seasonal allergic rhinitis; common cold; seasonal allergic rhinitis,native,42,1,3,0,0,0,1.7,178.6,60.1,18.8,140.0,66.0,74.0,15.0,0.895,0.114,94.9,10755.12,8341.02,0
+P0146,lower back pain; lower back pain,white,52,0,1,1,1,1,1.5,155.4,98.1,40.6,123.0,71.0,89.0,14.0,1.0,0.284,84.6,7420.05,11193.69,1
+P0147,asthma; essential hypertension; viral upper respiratory infection,black,42,1,3,7,1,1,1.6,182.1,73.0,22.0,111.0,89.0,71.0,16.0,0.75,0.053,83.6,966.09,14197.71,0
+P0148,hyperlipidemia; generalized anxiety disorder; gastroesophageal reflux disease,asian,79,1,4,2,4,3,1.6,168.0,69.1,24.5,110.0,90.0,74.0,16.0,0.899,0.022,72.5,13829.51,8626.34,0
+P0149,viral upper respiratory infection,other,33,0,1,4,4,2,7.3,179.5,82.9,25.7,101.0,87.0,86.0,16.0,0.939,0.206,71.2,8938.43,6860.78,0
+P0150,neck pain; sciatica,other,66,0,2,5,1,1,8.9,157.9,74.9,30.0,126.0,83.0,84.0,14.0,0.779,0.142,77.2,10251.99,6908.57,1
+P0151,gastroesophageal reflux disease,black,27,0,4,4,3,1,1.5,171.1,78.6,26.8,140.0,59.0,99.0,16.0,0.826,0.169,97.6,8727.73,14292.0,0
+P0152,asthma; gastroesophageal reflux disease,other,62,0,2,2,2,2,1.7,179.8,87.1,26.9,88.0,83.0,76.0,15.0,0.73,0.04,79.7,5882.82,9430.24,0
+P0153,generalized anxiety disorder; seasonal allergic rhinitis,native,48,1,4,5,0,0,3.2,168.7,80.2,28.2,90.0,76.0,59.0,17.0,0.782,0.103,96.1,985.7,6940.9,0
+P0154,viral upper respiratory infection; atopic eczema,white,18,1,3,5,0,0,3.8,152.9,89.4,38.2,140.0,93.0,85.0,15.0,0.941,0.042,75.3,16540.26,12033.09,0
+P0155,seasonal allergic rhinitis,white,50,0,2,7,1,1,1.1,164.3,54.8,20.3,98.0,94.0,91.0,18.0,1.0,0.118,94.8,11722.4,3574.31,0
+P0156,whiplash injury; chronic lower back pain; post-surgical wound care,black,30,0,8,5,0,0,1.7,173.0,75.8,25.3,129.0,103.0,76.0,16.0,0.66,0.113,54.3,11166.88,9474.05,1
+P0157,essential hypertension,other,42,0,2,3,2,2,6.7,153.6,68.8,29.2,103.0,88.0,94.0,12.0,0.912,0.041,81.6,12083.58,8819.8,0
+P0158,sciatica; painless skin tag removal,native,78,0,2,1,1,1,6.9,153.1,76.5,32.6,136.0,89.0,96.0,16.0,0.851,0.294,53.2,18833.37,8444.88,1
+P0159,compression fracture,other,29,1,5,5,4,4,0.3,170.0,74.1,25.6,136.0,70.0,71.0,13.0,0.93,0.174,80.8,7693.19,4260.36,1
+P0160,migraine headache; sciatica; gout flare; compression fracture,black,30,0,2,8,1,1,0.0,158.1,64.2,25.7,126.0,82.0,73.0,18.0,0.806,0.0,79.4,13593.7,13024.5,1
+P0161,common cold,black,77,0,4,5,0,0,0.8,174.4,68.9,22.7,132.0,68.0,65.0,19.0,0.909,0.066,66.9,4989.4,15899.94,0
+P0162,viral upper respiratory infection; essential hypertension; hypothyroidism; seasonal allergic rhinitis; back to back appointments scheduled; chronic kidney disease,asian,52,0,2,6,1,1,4.8,155.8,90.6,37.3,125.0,90.0,84.0,16.0,0.911,0.05,58.3,14023.85,3563.39,1
+P0163,osteoarthritis of the knee,white,79,0,1,6,0,0,5.6,149.2,65.6,29.5,132.0,69.0,85.0,17.0,0.577,0.02,63.2,7283.14,9489.09,1
+P0164,essential hypertension,native,56,0,7,4,0,0,1.8,159.8,54.0,21.1,146.0,79.0,84.0,13.0,0.86,0.046,59.9,20159.48,11643.62,0
+P0165,seasonal allergic rhinitis; hyperlipidemia,black,34,0,2,2,2,2,0.0,182.6,84.7,25.4,136.0,72.0,65.0,11.0,0.64,0.052,67.2,4808.18,18259.96,0
+P0166,hyperlipidemia; gastroesophageal reflux disease,native,49,1,1,3,2,2,3.0,158.9,91.1,36.1,112.0,76.0,70.0,15.0,0.615,0.082,68.0,9608.7,7288.88,0
+P0167,essential hypertension,white,73,0,3,4,0,0,3.8,167.5,70.3,25.1,110.0,85.0,63.0,15.0,0.754,0.033,89.4,9319.27,5106.29,0
+P0168,"whiplash injury; neck pain; ligament sprain, ankle",white,67,1,2,6,1,1,4.2,170.1,77.0,26.6,120.0,75.0,61.0,13.0,0.516,0.0,92.4,6678.42,8979.19,1
+P0169,hyperlipidemia; asthma; type 2 diabetes mellitus; chronic kidney disease,white,50,0,4,1,1,1,3.0,158.1,60.9,24.4,121.0,83.0,64.0,16.0,0.848,0.087,63.1,16210.56,17258.42,1
+P0170,common cold,black,51,1,4,4,0,0,3.8,178.5,71.5,22.4,122.0,71.0,62.0,17.0,0.975,0.132,75.5,6312.41,9282.94,0
+P0171,asthma; common cold; gastroesophageal reflux disease; painless skin tag removal,other,48,1,0,7,2,2,2.4,169.4,93.3,32.5,112.0,95.0,76.0,17.0,0.817,0.0,82.0,4506.21,10083.87,0
+P0172,viral upper respiratory infection; hypothyroidism,native,39,0,5,6,0,0,0.1,172.1,88.3,29.8,130.0,74.0,82.0,19.0,0.838,0.117,72.4,6779.74,16279.3,0
+P0173,compression fracture,white,86,1,3,2,2,2,4.5,150.8,77.4,34.0,125.0,91.0,84.0,18.0,0.728,0.186,65.8,3557.54,238.21,1
+P0174,post-surgical wound care; chronic lower back pain,other,50,1,4,7,1,1,1.0,150.1,70.3,31.2,129.0,102.0,78.0,15.0,0.724,0.096,83.6,18162.13,110.95,1
+P0175,asthma; asthma; gastroesophageal reflux disease; gastroesophageal reflux disease,native,29,1,4,5,0,0,4.6,140.0,47.7,24.3,121.0,56.0,71.0,16.0,0.871,0.099,82.2,10209.34,12720.29,0
+P0176,viral upper respiratory infection; seasonal allergic rhinitis; atopic eczema,native,41,0,3,5,1,1,3.5,165.7,80.2,29.2,130.0,71.0,78.0,17.0,0.897,0.036,78.1,12172.11,12176.16,0
+P0177,essential hypertension; essential hypertension; painless skin tag removal,other,63,1,2,5,2,2,0.4,165.3,82.6,30.2,104.0,79.0,84.0,14.0,0.798,0.056,71.8,0.0,3312.15,0
+P0178,atopic eczema; type 2 diabetes mellitus; gastroesophageal reflux disease; hyperlipidemia,native,62,0,5,4,0,0,3.0,174.9,92.5,30.2,143.0,93.0,75.0,19.0,0.759,0.019,98.3,8260.41,11122.11,0
+P0179,whiplash injury; post-surgical wound care; whiplash injury; migraine headache,asian,47,1,1,3,2,2,7.4,182.5,108.5,32.6,129.0,76.0,79.0,18.0,0.682,0.186,60.4,3422.11,9167.69,1
+P0180,seasonal allergic rhinitis,asian,38,1,3,0,1,1,0.0,165.1,81.2,29.8,127.0,85.0,75.0,16.0,0.952,0.162,80.8,7246.16,9889.95,0
+P0181,viral upper respiratory infection; atopic eczema,white,50,0,4,1,3,3,2.2,164.9,90.9,33.4,130.0,73.0,73.0,15.0,0.803,0.04,65.8,13777.7,5699.7,0
+P0182,atopic eczema; common cold,black,19,0,3,4,2,2,6.1,172.1,56.4,19.0,136.0,86.0,78.0,24.0,1.0,0.151,71.5,8184.22,7140.21,0
+P0183,seasonal allergic rhinitis,white,26,0,2,6,4,3,0.0,182.9,95.0,28.4,131.0,68.0,67.0,18.0,0.825,0.0,80.4,5805.43,5402.07,0
+P0184,asthma; type 2 diabetes mellitus,asian,65,0,2,4,2,2,2.2,159.4,89.4,35.2,124.0,89.0,89.0,18.0,1.0,0.027,74.1,12931.13,9208.41,0
+P0185,chronic lower back pain; sciatica; painless skin tag removal,asian,41,1,6,4,1,1,0.6,173.9,97.7,32.3,121.0,50.0,62.0,20.0,0.573,0.04,78.8,16768.95,8051.02,1
+P0186,sciatica; gout flare; post-surgical wound care; compression fracture,asian,57,0,3,4,3,2,4.1,165.2,86.2,31.6,99.0,62.0,83.0,18.0,0.654,0.311,71.3,23050.07,15900.3,1
+P0187,"ligament sprain, ankle; lumbar spinal stenosis; compression fracture",black,73,0,5,4,3,3,0.0,164.3,82.5,30.6,127.0,99.0,64.0,16.0,0.843,0.081,48.1,0.0,11575.14,1
+P0188,migraine headache,white,62,1,4,1,1,1,0.1,175.8,99.6,32.2,119.0,82.0,94.0,17.0,0.845,0.218,33.4,11643.72,2544.1,1
+P0189,"gout flare; diabetic neuropathy; lumbar spinal stenosis; ligament sprain, ankle",native,50,0,4,11,0,0,2.9,159.7,64.0,25.1,119.0,72.0,87.0,14.0,0.74,0.0,86.1,6065.44,10704.57,1
+P0190,"ligament sprain, ankle; sciatica; lower back pain",asian,89,0,2,3,1,1,4.6,156.9,85.7,34.8,160.0,103.0,70.0,17.0,1.0,0.151,60.9,2630.61,14873.56,1
+P0191,seasonal allergic rhinitis; generalized anxiety disorder; generalized anxiety disorder; chronic kidney disease,other,62,1,6,1,4,3,5.2,174.3,93.0,30.6,96.0,91.0,73.0,13.0,0.777,0.196,93.9,10052.86,10154.2,1
+P0192,gout flare; sciatica; fibromyalgia; post-surgical wound care,white,43,0,4,7,1,1,5.3,167.4,62.0,22.1,125.0,92.0,66.0,17.0,0.812,0.136,70.5,470.57,13454.33,1
+P0193,type 2 diabetes mellitus; hyperlipidemia; asthma; common cold,asian,64,1,4,6,1,1,5.0,165.0,55.9,20.5,138.0,76.0,77.0,17.0,0.785,0.0,69.3,0.0,8859.33,0
+P0194,chronic lower back pain; whiplash injury; diabetic neuropathy,native,58,1,4,7,0,0,6.0,166.3,82.3,29.8,139.0,87.0,82.0,13.0,1.0,0.158,79.2,2421.05,11889.61,1
+P0195,gastroesophageal reflux disease; atopic eczema; atopic eczema; essential hypertension,white,34,0,3,4,1,1,4.1,172.6,77.1,25.9,138.0,86.0,104.0,20.0,0.958,0.128,75.7,5335.44,5164.32,0
+P0196,compression fracture; lower back pain; compression fracture,black,51,1,8,4,4,3,1.7,163.9,85.2,31.7,105.0,64.0,64.0,14.0,0.832,0.271,70.4,23187.56,12225.28,1
+P0197,fibromyalgia; lumbar spinal stenosis,black,47,0,6,6,1,1,3.8,175.3,85.8,27.9,110.0,87.0,91.0,18.0,0.502,0.18,55.4,3779.13,3345.06,1
+P0198,viral upper respiratory infection,other,18,1,3,9,1,1,9.4,171.8,62.4,21.1,130.0,79.0,72.0,15.0,0.898,0.0,87.5,345.04,14299.8,0
+P0199,essential hypertension; atopic eczema,white,47,1,4,5,2,1,7.4,182.5,80.7,24.2,117.0,94.0,81.0,17.0,0.798,0.068,93.4,0.0,2792.33,0
+P0200,type 2 diabetes mellitus; asthma; asthma; atopic eczema,white,45,0,3,4,2,2,4.3,180.3,93.8,28.9,145.0,94.0,87.0,15.0,0.902,0.134,72.4,4838.64,323.44,0
+P0201,asthma,other,42,0,3,7,2,2,4.1,176.2,69.2,22.3,124.0,74.0,84.0,21.0,0.964,0.031,100.0,5452.06,11175.3,0
+P0202,viral upper respiratory infection; gastroesophageal reflux disease,black,20,1,5,13,1,1,4.7,165.6,70.4,25.7,124.0,75.0,82.0,18.0,0.764,0.114,71.8,7587.89,8291.79,0
+P0203,diabetic neuropathy; gout flare; compression fracture; whiplash injury,native,43,1,3,10,0,0,3.2,168.8,56.4,19.8,131.0,83.0,76.0,20.0,0.8,0.092,74.2,0.0,9467.05,1
+P0204,common cold,asian,49,0,2,8,1,1,6.8,161.7,88.7,33.9,117.0,87.0,78.0,18.0,0.96,0.086,57.9,2580.95,10753.69,0
+P0205,neck pain; fibromyalgia,black,52,0,2,6,5,4,3.3,196.2,107.5,27.9,126.0,77.0,80.0,17.0,0.792,0.216,39.5,0.0,8887.94,1
+P0206,gastroesophageal reflux disease; atopic eczema; essential hypertension,white,29,0,4,5,2,2,2.4,165.4,52.5,19.2,112.0,80.0,90.0,16.0,0.814,0.038,100.0,7697.21,5369.75,0
+P0207,type 2 diabetes mellitus; gastroesophageal reflux disease; chronic kidney disease,asian,62,1,2,6,2,2,9.8,173.2,87.8,29.3,124.0,87.0,63.0,16.0,0.595,0.425,93.0,0.0,9865.84,1
+P0208,essential hypertension; seasonal allergic rhinitis; asthma,asian,28,1,4,3,0,0,0.0,181.3,90.2,27.4,114.0,85.0,73.0,17.0,0.773,0.089,94.1,0.0,10424.95,0
+P0209,sciatica; osteoarthritis of the knee; lower back pain,asian,46,1,4,6,3,3,5.1,154.0,65.9,27.8,128.0,93.0,65.0,16.0,0.561,0.174,43.1,17892.21,11020.66,1
+P0210,"ligament sprain, ankle; fibromyalgia; ligament sprain, ankle; diabetic neuropathy",asian,74,1,3,4,4,4,0.0,159.4,69.0,27.2,103.0,83.0,68.0,16.0,0.924,0.066,73.8,12979.44,17147.92,1
+P0211,rheumatoid arthritis; sciatica; osteoarthritis of the knee,other,37,1,4,7,3,3,2.6,163.7,57.9,21.6,102.0,72.0,70.0,13.0,0.782,0.146,76.9,11825.49,5984.87,1
+P0212,"compression fracture; ligament sprain, ankle; fibromyalgia",black,41,1,6,3,3,3,4.0,157.7,62.2,25.0,131.0,63.0,89.0,15.0,0.57,0.113,71.5,11819.67,9275.13,1
+P0213,atopic eczema; essential hypertension,other,70,1,2,7,0,0,1.8,155.0,78.0,32.5,124.0,89.0,100.0,17.0,0.853,0.0,83.0,1079.27,11296.11,0
+P0214,atopic eczema; hypothyroidism; asthma,native,43,1,1,1,0,0,2.9,162.5,86.0,32.6,108.0,77.0,92.0,15.0,0.698,0.0,67.2,12678.53,7166.05,0
+P0215,"diabetic neuropathy; ligament sprain, ankle; diabetic neuropathy; compression fracture",white,45,1,4,8,1,1,2.3,180.6,77.2,23.7,121.0,77.0,66.0,17.0,0.237,0.169,67.7,1330.59,4083.4,1
+P0216,hypothyroidism; gastroesophageal reflux disease; generalized anxiety disorder; gastroesophageal reflux disease,black,54,1,3,6,1,1,2.3,174.9,89.4,29.2,106.0,78.0,79.0,16.0,1.0,0.075,64.4,17287.72,6672.03,0
+P0217,hyperlipidemia; asthma; hyperlipidemia,black,69,0,1,2,1,1,0.0,168.0,78.6,27.8,150.0,65.0,66.0,14.0,0.995,0.0,74.6,8016.95,13366.17,0
+P0218,lower back pain; neck pain; gout flare; compression fracture,asian,18,0,5,5,0,0,3.2,168.0,55.9,19.8,101.0,77.0,83.0,14.0,0.528,0.0,76.1,0.0,7894.49,1
+P0219,viral upper respiratory infection; viral upper respiratory infection; painless skin tag removal,white,35,0,3,2,0,0,0.0,151.1,99.3,43.5,145.0,54.0,91.0,15.0,0.767,0.062,69.0,11553.99,11510.1,0
+P0220,common cold; type 2 diabetes mellitus; viral upper respiratory infection; hyperlipidemia; painless skin tag removal,white,31,0,5,5,1,1,4.0,174.6,94.9,31.1,110.0,77.0,84.0,15.0,0.879,0.076,75.6,17627.75,5987.38,0
+P0221,fibromyalgia; post-surgical wound care; lumbar spinal stenosis,black,30,0,3,4,1,1,0.9,171.9,63.5,21.5,131.0,72.0,87.0,16.0,0.704,0.201,63.3,7285.34,10829.78,1
+P0222,essential hypertension; hypothyroidism,black,34,0,1,4,1,1,4.0,156.8,104.7,42.6,118.0,99.0,76.0,18.0,0.751,0.006,79.4,12641.43,6228.05,0
+P0223,generalized anxiety disorder; common cold; type 2 diabetes mellitus,white,34,1,2,8,2,2,1.6,169.7,83.1,28.9,116.0,85.0,58.0,14.0,0.792,0.115,91.1,5610.95,5543.88,0
+P0224,essential hypertension; common cold,native,56,0,5,7,0,0,1.9,165.8,77.5,28.2,134.0,78.0,58.0,12.0,0.825,0.062,82.2,3324.52,9460.72,0
+P0225,"migraine headache; neck pain; ligament sprain, ankle; lower back pain",white,34,1,4,5,0,0,7.2,162.5,107.1,40.6,137.0,82.0,77.0,17.0,0.676,0.089,76.5,0.0,9213.49,1
+P0226,type 2 diabetes mellitus; asthma; essential hypertension; seasonal allergic rhinitis,black,52,1,4,2,3,3,2.8,157.8,35.0,14.1,117.0,88.0,84.0,15.0,0.879,0.072,60.5,13578.5,15045.27,0
+P0227,atopic eczema; hyperlipidemia; type 2 diabetes mellitus; seasonal allergic rhinitis,asian,57,0,4,5,2,2,0.0,160.9,48.7,18.8,108.0,73.0,91.0,16.0,0.826,0.139,74.4,4330.64,2335.15,0
+P0228,hypothyroidism; back to back appointments scheduled,native,37,0,4,6,3,3,3.6,158.3,87.1,34.8,150.0,78.0,74.0,21.0,0.762,0.113,89.8,8869.92,11087.81,0
+P0229,type 2 diabetes mellitus; hyperlipidemia; type 2 diabetes mellitus,white,52,1,5,1,0,0,0.0,172.3,71.3,24.0,141.0,77.0,79.0,19.0,0.857,0.133,68.0,544.53,15611.98,0
+P0230,migraine headache; sciatica; sciatica; compression fracture,asian,80,0,3,7,6,3,4.9,171.3,59.7,20.3,126.0,106.0,81.0,17.0,0.498,0.071,63.3,2385.41,14586.8,1
+P0231,hypothyroidism; painless skin tag removal,other,56,1,4,7,2,2,1.7,170.9,100.3,34.3,117.0,81.0,89.0,18.0,1.0,0.063,66.6,12928.06,7424.97,0
+P0232,seasonal allergic rhinitis; asthma; hypothyroidism,asian,38,0,2,4,2,2,0.0,165.9,83.4,30.3,125.0,61.0,77.0,16.0,0.644,0.01,96.5,4657.03,6203.84,0
+P0233,asthma; viral upper respiratory infection; painless skin tag removal,other,49,1,2,5,3,3,2.7,163.6,54.2,20.3,122.0,89.0,67.0,18.0,0.844,0.047,73.3,4576.16,6969.28,0
+P0234,compression fracture,white,33,1,3,4,2,2,3.4,188.1,64.4,18.2,142.0,107.0,89.0,15.0,0.819,0.1,58.5,0.0,10233.96,1
+P0235,post-surgical wound care; fibromyalgia; compression fracture; neck pain,white,55,1,4,7,0,0,9.4,149.1,89.4,40.2,110.0,71.0,82.0,15.0,0.831,0.093,80.0,10781.19,9776.69,1
+P0236,seasonal allergic rhinitis; atopic eczema; type 2 diabetes mellitus; essential hypertension,other,66,1,1,3,1,1,1.6,179.7,105.0,32.5,122.0,116.0,82.0,15.0,0.885,0.123,93.4,11070.08,10433.87,0
+P0237,sciatica; chronic lower back pain,native,35,0,6,4,2,2,9.2,171.2,42.2,14.4,113.0,80.0,65.0,19.0,0.967,0.183,78.1,5753.22,11455.59,1
+P0238,common cold; hyperlipidemia,asian,46,1,0,4,1,1,5.5,168.4,79.6,28.1,140.0,91.0,78.0,19.0,0.718,0.126,91.9,5755.36,4609.99,0
+P0239,hyperlipidemia; seasonal allergic rhinitis; common cold,native,70,1,2,3,1,1,1.2,162.6,69.1,26.1,146.0,75.0,60.0,15.0,0.845,0.088,81.9,70.71,4372.0,0
+P0240,essential hypertension; gastroesophageal reflux disease,white,41,0,7,2,0,0,0.8,165.5,46.5,17.0,120.0,78.0,57.0,18.0,0.871,0.144,77.5,14508.1,3967.41,0
+P0241,fibromyalgia,black,53,0,2,4,2,2,7.6,155.8,72.7,30.0,132.0,68.0,76.0,16.0,0.685,0.151,63.1,4571.63,3493.05,1
+P0242,seasonal allergic rhinitis; type 2 diabetes mellitus; essential hypertension,black,31,0,1,3,1,1,2.2,153.8,48.9,20.7,141.0,70.0,74.0,18.0,0.782,0.138,72.5,5935.25,8592.67,0
+P0243,hypothyroidism; essential hypertension; chronic obstructive pulmonary disease (copd),white,35,1,3,8,2,2,4.6,166.6,66.6,24.0,120.0,59.0,84.0,15.0,0.971,0.19,60.6,21861.88,10277.35,1
+P0244,neck pain; lower back pain,native,41,1,4,9,2,2,3.6,151.1,102.3,44.8,110.0,92.0,93.0,18.0,0.65,0.214,76.0,7517.45,19388.82,1
+P0245,atopic eczema,white,89,0,4,0,0,0,0.0,176.1,84.0,27.1,136.0,69.0,78.0,16.0,0.796,0.076,77.6,0.0,11188.29,0
+P0246,lower back pain; compression fracture; gout flare; fibromyalgia,asian,43,1,6,3,3,3,3.3,178.9,88.4,27.6,132.0,84.0,96.0,15.0,0.72,0.016,71.5,2264.67,9069.87,1
+P0247,hyperlipidemia; atopic eczema,asian,40,1,4,3,1,1,0.4,133.3,85.4,48.1,118.0,84.0,72.0,16.0,0.828,0.0,87.0,4821.12,14822.07,0
+P0248,generalized anxiety disorder,other,40,1,4,6,1,1,0.0,152.2,81.4,35.1,142.0,74.0,86.0,16.0,0.873,0.197,78.4,16623.24,5986.94,0
+P0249,gastroesophageal reflux disease; hyperlipidemia; atopic eczema; hyperlipidemia; chronic obstructive pulmonary disease (copd),other,47,1,4,5,0,0,3.5,170.4,91.6,31.5,128.0,81.0,65.0,15.0,0.731,0.179,48.3,10911.3,10392.77,1
+P0250,common cold; viral upper respiratory infection; essential hypertension,white,62,0,2,6,1,1,6.4,169.8,56.2,19.5,96.0,80.0,79.0,13.0,0.898,0.107,68.8,5564.17,12994.95,0
+P0251,hyperlipidemia; seasonal allergic rhinitis; chronic kidney disease,black,53,0,7,7,0,0,8.4,168.8,69.5,24.4,130.0,76.0,75.0,20.0,0.786,0.123,52.2,15469.13,12226.71,1
+P0252,neck pain,black,87,0,5,6,3,2,4.1,171.9,89.7,30.4,123.0,81.0,76.0,15.0,0.841,0.094,39.7,19047.79,10656.88,1
+P0253,chronic lower back pain,asian,54,1,10,7,3,2,4.6,175.2,63.5,20.7,153.0,81.0,84.0,12.0,0.983,0.427,71.8,3535.75,7569.05,1
+P0254,fibromyalgia; compression fracture,other,76,0,10,6,2,2,5.5,176.4,68.3,21.9,124.0,70.0,59.0,11.0,0.629,0.028,51.0,20032.7,3905.63,1
+P0255,asthma; painless skin tag removal,asian,55,0,0,6,1,1,5.5,185.6,95.6,27.8,118.0,67.0,79.0,10.0,1.0,0.076,62.4,11554.37,8370.95,0
+P0256,post-surgical wound care; neck pain; painless skin tag removal,white,61,1,5,9,2,2,5.0,168.0,101.0,35.8,131.0,72.0,70.0,15.0,0.692,0.135,52.9,12631.21,6556.89,1
+P0257,gastroesophageal reflux disease; viral upper respiratory infection; generalized anxiety disorder,native,24,1,6,4,3,2,1.5,176.4,65.5,21.0,125.0,82.0,79.0,19.0,0.933,0.012,90.4,0.0,11826.03,0
+P0258,viral upper respiratory infection; hypothyroidism; viral upper respiratory infection; seasonal allergic rhinitis,other,48,1,7,4,1,1,1.7,151.5,62.0,27.0,102.0,95.0,82.0,13.0,0.872,0.004,75.1,7905.01,8440.5,0
+P0259,rheumatoid arthritis; gout flare; post-surgical wound care,black,49,0,5,3,0,0,7.1,166.4,85.3,30.8,126.0,96.0,74.0,15.0,0.717,0.07,86.1,19759.75,11304.01,1
+P0260,sciatica,other,46,0,6,3,1,1,10.0,155.5,80.1,33.1,119.0,84.0,74.0,12.0,0.45,0.106,68.7,7199.89,2399.01,1
+P0261,viral upper respiratory infection; atopic eczema; seasonal allergic rhinitis; common cold,black,18,0,2,10,0,0,1.2,181.7,64.4,19.5,141.0,90.0,66.0,18.0,1.0,0.051,73.4,19591.41,12991.35,0
+P0262,"ligament sprain, ankle; lower back pain; neck pain; osteoarthritis of the knee",asian,66,1,5,5,2,1,0.0,191.1,85.5,23.4,160.0,82.0,84.0,17.0,0.643,0.221,79.1,9823.55,5503.07,1
+P0263,rheumatoid arthritis; migraine headache,asian,43,0,8,5,1,1,6.3,173.2,84.8,28.3,108.0,92.0,71.0,17.0,0.638,0.022,79.6,1607.98,2592.04,1
+P0264,chronic lower back pain,asian,42,1,4,5,2,2,4.0,154.7,77.0,32.2,110.0,82.0,83.0,19.0,0.934,0.18,71.9,13746.67,3354.92,1
+P0265,gout flare; gout flare; chronic lower back pain,black,45,0,1,7,0,0,4.6,166.6,124.4,44.8,112.0,85.0,63.0,19.0,0.776,0.287,53.5,11494.81,6423.63,1
+P0266,hyperlipidemia; painless skin tag removal,asian,46,0,2,2,2,2,5.2,168.0,98.2,34.8,112.0,78.0,92.0,18.0,1.0,0.134,73.1,11446.0,13608.08,0
+P0267,neck pain,other,57,1,1,10,4,1,4.4,169.7,89.2,31.0,114.0,81.0,68.0,15.0,1.0,0.026,51.2,7605.8,11925.44,1
+P0268,lumbar spinal stenosis; gout flare; chronic lower back pain; sciatica,black,27,0,2,1,1,1,0.8,178.6,92.6,29.0,125.0,100.0,90.0,13.0,0.877,0.0,66.0,19113.45,4186.87,1
+P0269,hypothyroidism; chronic kidney disease,asian,33,0,5,8,3,3,0.0,177.3,124.8,39.7,141.0,68.0,73.0,14.0,0.804,0.225,71.6,5094.0,9354.76,1
+P0270,viral upper respiratory infection; atopic eczema; essential hypertension; hyperlipidemia,white,55,0,6,6,1,1,2.4,141.3,93.9,47.0,103.0,81.0,84.0,12.0,0.944,0.11,98.3,7575.41,8569.22,0
+P0271,migraine headache; whiplash injury,native,53,1,1,7,2,2,1.2,181.4,63.7,19.4,101.0,74.0,77.0,20.0,0.554,0.081,92.7,0.0,2569.86,1
+P0272,seasonal allergic rhinitis; hypothyroidism; type 2 diabetes mellitus; seasonal allergic rhinitis; chronic obstructive pulmonary disease (copd),other,43,0,3,3,2,2,5.0,162.8,81.0,30.6,97.0,90.0,85.0,16.0,0.791,0.268,80.9,3257.14,4936.42,1
+P0273,atopic eczema; essential hypertension,other,40,1,2,7,2,2,0.0,162.2,76.9,29.2,137.0,99.0,78.0,16.0,0.87,0.056,91.5,7977.05,644.32,0
+P0274,generalized anxiety disorder,other,35,1,5,6,2,2,1.8,181.9,66.3,20.0,140.0,77.0,91.0,16.0,0.796,0.086,82.1,3215.54,5432.58,0
+P0275,gastroesophageal reflux disease; common cold; gastroesophageal reflux disease,asian,49,1,1,3,2,2,0.0,165.1,80.0,29.3,100.0,52.0,85.0,20.0,0.883,0.018,100.0,4362.57,-1868.5,0
+P0276,neck pain; post-surgical wound care; osteoarthritis of the knee,black,71,1,6,6,1,1,3.3,154.1,79.9,33.6,100.0,87.0,85.0,15.0,0.531,0.172,94.5,7741.97,5738.2,1
+P0277,seasonal allergic rhinitis; asthma,black,31,1,3,9,2,2,1.6,154.5,74.8,31.3,123.0,87.0,95.0,19.0,0.961,0.054,100.0,8259.61,5161.3,0
+P0278,seasonal allergic rhinitis; atopic eczema; hypothyroidism,native,77,0,3,2,1,1,3.8,168.3,67.6,23.9,137.0,63.0,71.0,17.0,1.0,0.05,84.0,11106.18,5731.91,0
+P0279,generalized anxiety disorder; essential hypertension; hypothyroidism; hypothyroidism,white,65,1,1,5,2,2,5.5,176.8,89.5,28.6,136.0,78.0,91.0,16.0,0.698,0.145,84.4,11117.91,5624.04,0
+P0280,gastroesophageal reflux disease; gastroesophageal reflux disease,asian,42,1,3,6,3,3,2.1,182.8,49.2,14.7,124.0,80.0,79.0,12.0,0.87,0.093,92.7,12537.79,13740.49,0
+P0281,viral upper respiratory infection,white,64,0,4,10,0,0,0.6,166.1,89.4,32.4,131.0,57.0,63.0,18.0,1.0,0.0,81.5,7999.83,7571.96,0
+P0282,lumbar spinal stenosis,native,24,1,6,6,3,1,9.3,163.1,75.9,28.5,129.0,88.0,83.0,15.0,0.83,0.209,75.0,5192.38,9988.62,1
+P0283,seasonal allergic rhinitis; atopic eczema; gastroesophageal reflux disease,white,19,1,1,5,1,1,3.3,184.0,80.3,23.7,114.0,85.0,76.0,15.0,0.729,0.13,66.2,0.0,12093.82,0
+P0284,gastroesophageal reflux disease; hyperlipidemia; painless skin tag removal,white,27,1,3,5,3,2,3.9,163.2,36.2,13.6,148.0,83.0,95.0,17.0,0.735,0.03,91.3,4937.55,12691.04,0
+P0285,"ligament sprain, ankle",asian,43,1,5,5,0,0,5.8,182.3,103.6,31.2,124.0,70.0,73.0,16.0,0.899,0.101,72.2,3294.89,11787.72,1
+P0286,lower back pain,black,44,1,1,4,0,0,8.0,170.1,47.0,16.2,108.0,73.0,79.0,18.0,1.0,0.145,83.0,0.0,6730.66,1
+P0287,type 2 diabetes mellitus; seasonal allergic rhinitis; gastroesophageal reflux disease,other,41,0,3,4,0,0,4.8,170.1,61.3,21.2,115.0,74.0,80.0,15.0,0.723,0.065,76.2,16018.94,4502.97,0
+P0288,common cold,native,52,1,1,3,4,2,4.0,165.4,86.4,31.6,100.0,86.0,58.0,16.0,0.857,0.087,56.0,0.0,5810.72,0
+P0289,hyperlipidemia,native,18,0,2,7,1,1,4.2,170.7,65.6,22.5,122.0,70.0,83.0,17.0,0.76,0.119,85.5,8847.9,7063.42,0
+P0290,osteoarthritis of the knee,black,59,0,4,11,3,3,2.0,163.1,68.9,25.9,141.0,96.0,68.0,16.0,0.718,0.091,88.7,13534.03,9019.92,1
+P0291,lumbar spinal stenosis; migraine headache; compression fracture,asian,24,0,6,8,0,0,2.7,161.0,38.6,14.9,105.0,84.0,92.0,17.0,0.813,0.348,49.6,7551.51,8648.05,1
+P0292,type 2 diabetes mellitus,white,38,1,2,2,1,1,2.3,166.4,68.5,24.7,137.0,58.0,95.0,16.0,0.848,0.037,66.4,21249.02,13489.35,0
+P0293,gastroesophageal reflux disease; common cold; common cold,native,43,1,1,8,2,2,2.7,161.3,79.3,30.5,151.0,98.0,78.0,19.0,0.771,0.048,75.1,6989.85,8577.29,0
+P0294,hyperlipidemia; gastroesophageal reflux disease,asian,29,1,5,3,2,1,2.6,170.8,87.0,29.8,127.0,82.0,62.0,15.0,1.0,0.198,75.8,2615.33,16342.07,0
+P0295,viral upper respiratory infection; common cold; essential hypertension,white,25,1,0,5,2,2,3.2,168.6,71.0,25.0,105.0,75.0,80.0,13.0,0.834,0.223,56.9,16666.0,13218.09,0
+P0296,type 2 diabetes mellitus; hyperlipidemia; common cold; back to back appointments scheduled,asian,32,0,8,4,0,0,2.6,165.1,79.4,29.1,109.0,82.0,80.0,16.0,0.831,0.082,100.0,2426.42,7025.51,0
+P0297,asthma; essential hypertension; common cold; asthma,white,50,1,5,5,0,0,1.6,165.8,83.0,30.2,117.0,62.0,85.0,19.0,0.985,0.069,92.2,0.0,12523.74,0
+P0298,generalized anxiety disorder,other,61,0,6,6,3,2,0.0,165.5,64.5,23.5,103.0,82.0,75.0,15.0,0.854,0.016,71.0,1282.99,-2772.99,0
+P0299,gastroesophageal reflux disease; essential hypertension,black,60,0,3,3,1,1,4.4,185.2,63.3,18.5,104.0,55.0,66.0,15.0,0.828,0.149,55.5,3303.89,14640.28,0
+P0300,seasonal allergic rhinitis,black,32,1,6,8,1,1,3.8,167.7,108.4,38.5,118.0,70.0,77.0,15.0,0.966,0.09,83.7,7130.19,10684.81,0
+P0301,lower back pain,asian,36,1,3,9,2,2,2.0,161.8,61.6,23.5,122.0,95.0,69.0,16.0,0.599,0.055,100.0,11892.84,10625.52,1
+P0302,gastroesophageal reflux disease; seasonal allergic rhinitis,black,33,0,6,5,0,0,3.6,164.8,96.3,35.5,130.0,94.0,96.0,16.0,0.942,0.104,89.8,0.0,2105.82,0
+P0303,gastroesophageal reflux disease; essential hypertension; seasonal allergic rhinitis; generalized anxiety disorder,white,58,0,6,5,2,2,3.4,174.4,76.9,25.3,105.0,77.0,71.0,17.0,0.975,0.162,94.0,8825.05,19318.33,0
+P0304,hypothyroidism; common cold,white,18,1,10,8,1,1,2.7,165.8,100.3,36.5,148.0,70.0,71.0,13.0,0.931,0.121,66.8,19311.48,7957.53,0
+P0305,essential hypertension; hypothyroidism; type 2 diabetes mellitus,white,72,0,2,7,0,0,0.0,166.3,65.1,23.5,136.0,90.0,78.0,19.0,0.831,0.212,82.0,2898.29,8412.73,0
+P0306,gastroesophageal reflux disease; viral upper respiratory infection; atopic eczema; atopic eczema,other,41,1,2,6,2,2,0.0,165.2,84.4,30.9,134.0,80.0,65.0,17.0,0.851,0.15,59.5,6142.61,13606.83,0
+P0307,common cold; atopic eczema; generalized anxiety disorder,native,36,1,2,3,0,0,1.2,169.4,81.3,28.3,112.0,83.0,73.0,14.0,0.648,0.106,100.0,10752.22,8205.61,0
+P0308,"post-surgical wound care; ligament sprain, ankle",white,56,1,6,8,1,1,8.4,171.7,72.0,24.4,151.0,87.0,77.0,19.0,0.742,0.137,79.1,18487.72,5517.01,1
+P0309,common cold,black,69,0,6,2,1,1,0.7,172.2,80.9,27.3,117.0,69.0,73.0,17.0,0.887,0.113,51.6,3154.88,11694.25,0
+P0310,asthma; gastroesophageal reflux disease,white,56,1,5,4,1,1,1.8,151.4,63.0,27.5,147.0,89.0,75.0,19.0,0.956,0.153,55.0,1513.29,4849.74,0
+P0311,asthma; asthma,native,69,1,7,5,3,2,0.1,157.1,74.4,30.1,136.0,58.0,91.0,14.0,0.869,0.132,85.2,1253.45,12038.63,0
+P0312,generalized anxiety disorder; type 2 diabetes mellitus,native,52,0,4,5,2,2,1.5,141.5,69.1,34.5,109.0,96.0,82.0,20.0,0.806,0.143,80.8,12989.7,9562.28,0
+P0313,atopic eczema,other,72,1,1,6,1,1,3.3,175.8,88.4,28.6,115.0,64.0,64.0,16.0,0.753,0.093,75.0,11896.37,13611.06,0
+P0314,hypothyroidism; essential hypertension; gastroesophageal reflux disease; hyperlipidemia,native,72,0,3,3,2,2,0.0,178.8,74.3,23.2,148.0,74.0,74.0,12.0,0.847,0.126,87.0,0.0,4043.49,0
+P0315,essential hypertension,native,48,0,3,8,1,1,0.0,180.8,52.6,16.1,135.0,74.0,86.0,18.0,0.868,0.153,100.0,0.0,14095.28,0
+P0316,hyperlipidemia; seasonal allergic rhinitis; gastroesophageal reflux disease,white,76,0,0,4,1,1,4.0,169.2,69.6,24.3,119.0,88.0,71.0,15.0,0.996,0.07,83.8,0.0,10201.13,0
+P0317,essential hypertension; seasonal allergic rhinitis; hypothyroidism,black,53,1,3,4,1,1,2.6,179.2,74.1,23.1,124.0,88.0,79.0,14.0,0.853,0.002,55.5,0.0,17076.48,0
+P0318,whiplash injury,white,52,0,4,8,3,3,2.7,167.4,60.7,21.7,127.0,84.0,78.0,16.0,0.684,0.313,67.4,12445.94,6333.81,1
+P0319,common cold; gastroesophageal reflux disease,black,33,1,3,2,1,1,4.7,166.6,97.9,35.3,111.0,86.0,83.0,12.0,0.84,0.115,61.9,8102.77,16596.62,0

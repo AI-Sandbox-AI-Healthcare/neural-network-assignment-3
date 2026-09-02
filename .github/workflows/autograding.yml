@@ -1,0 +1,28 @@
+name: Autograding
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.GRADER_APP_ID }}
+          private-key: ${{ secrets.GRADER_APP_PRIVATE_KEY }}
+          owner: AI-Sandbox-AI-Healthcare
+          repositories: private-instructor-graders
+
+      - uses: AI-Sandbox-AI-Healthcare/custom-python-grader@main
+        with:
+          course: INFO-557
+          assignment: hw03
+          version: v1
+          timeout: 900
+        env:
+          GRADER_TOKEN: ${{ steps.app-token.outputs.token }}

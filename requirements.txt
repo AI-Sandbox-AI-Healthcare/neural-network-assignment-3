@@ -1,0 +1,6 @@
+numpy
+pandas
+torch
+pytest
+pytest-timeout
+pylint
